@@ -1,0 +1,103 @@
+/* Global styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+/* Animation tweeks */
+.navbar-brand {
+    --animate-repeat: 2;
+}
+
+/* Bootstrap tweeks */
+
+.btn-primary {
+    background-color: #B5289F;
+    border-color: #B5289F;
+}
+
+.btn-primary:hover {
+    background-color: #FF77AB;
+    border-color: #FF77AB;
+}
+
+/* Main css */
+
+.main-navigation {
+    background-color: #421F5C;
+    z-index: 10;
+    top: 0;
+}
+
+.main-navigation a {
+    color: #fff;
+}
+
+.main-navigation a:hover {
+    color: #fff;
+}
+
+.main-navigation .nav-link.active {
+    font-weight: 500;
+    color: #fff;
+}
+
+.main-navigation .nav-link.disabled {
+    color: #fff;
+    opacity: .5;
+
+}
+
+.navbar-toggler{
+    border-color: #fff;
+    font-size: 1.5em;
+}
+
+.navbar-brand img {
+    max-width: 210px;
+}
+
+.product-tags i {
+    color: #FD76A9;
+    margin-right: 8px;
+    min-width: 20px;
+}
+
+.newletter-section {
+    background: linear-gradient(150deg, #FD76A9, #81D2E2);
+}
+
+.main-footer {
+    background-color: #421F5C;
+    color: #fff;
+}
+
+.main-footer p {
+    margin-bottom: 0;
+}
+
+.main-footer .footer-brand img {
+    max-width: 240px;
+}
+
+.card-footer {
+    font-weight: 500;
+    background-color: #fffbff;
+}
+
+.card-footer .divider {
+    opacity: .3;
+}
